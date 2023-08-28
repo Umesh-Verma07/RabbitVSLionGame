@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Rabbit vs Lion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="rank">Your Score : 0</div>
+        <div id="wlcm">
+            Welcome to
+            <img src="Rabbit.png"  alt="Rabbit" height="80px"> <span style="color: rgba(255, 191, 0, 0.6);">VS</span> <img src="lion.png" alt="Lion" height = "80px">
+            Game
+        </div>
+        <div id = "jmp" class = "Instruction">Press <i class="fa-regular fa-circle-up"></i> Arrow to jump rabbit</div>
+        <div id="move" class = "Instruction">Press <i class="fa-regular fa-circle-right"></i> Arrow to move rabbit right <br> Press <i class="fa-regular fa-circle-left"></i> Arrow to move rabbit left</div>
+        <div id="Gameover"> 
+            Game Over
+            <p id="over"></p>
+            <button id = "btn" onclick="window.location.reload();">Play Again</button>
+        </div>
+        <div id="rabbit"></div>
+        <div id="lion" class = "lionRun"></div>
+    </div>
+
+    <script src = "script.js"></script>
+</body>
+</html>
